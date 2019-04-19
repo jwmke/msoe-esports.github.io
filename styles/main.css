@@ -1,9 +1,7 @@
-
-   /* background:#A10A04; */   
-
    html, body {
        height: 100%;
        width: 100%;
+       background:#A10A04;
    }
 
    .navbar {
@@ -54,4 +52,13 @@
        width: 75%;
        margin-top: .8rem;
        margin-bottom: 1rem;
+   }
+
+   .calander {
+       margin-top: 2rem;
+   }
+
+   .google {
+       height: 60rem;
+       width: 80rem;
    }
