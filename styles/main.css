@@ -62,3 +62,15 @@
        height: 60rem;
        width: 80rem;
    }
+
+   .card {
+       margin-bottom: 2rem;
+   }
+
+   .welcome {
+       color: white;
+   }
+
+   .btn {
+       margin-top: 1rem;
+   }
