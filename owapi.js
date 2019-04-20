@@ -15,7 +15,7 @@ var getJSON = function(url) {
     });
   };
   
-  getJSON('https://ow-api.com/v1/stats/pc/us/xPepsi-1642/profile').then(function(data) {
+  getJSON('https://ow-api.com/v1/stats/pc/us/profile').then(function(data) {
       ('Your Json result is:  ' + data.ratingIcon); //you can comment this, i used it to debug
       result.innerText = data.ratingIcon; //display the result in an HTML element
   }, function(status) { //error detection....

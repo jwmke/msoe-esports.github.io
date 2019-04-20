@@ -37,7 +37,13 @@
        margin-left: 10px;
    }
 
-   .fa-youtube:hover, .fa-twitch:hover {
+   .fa-twitter {
+        color: #38A1F3;
+        font-size: 3rem;
+        margin-left: 20px;
+   }
+
+   .fa-youtube:hover, .fa-twitch:hover, .fa-twitter:hover {
        color: lightgray;
    }
 
@@ -73,4 +79,9 @@
 
    .btn {
        margin-top: 1rem;
+   }
+
+   .twitch {
+      min-height: 700px; 
+      margin-top: 2rem;
    }
