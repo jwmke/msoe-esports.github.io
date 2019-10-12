@@ -85,3 +85,56 @@
       min-height: 700px; 
       margin-top: 2rem;
    }
+
+   .right-allign {
+       text-align: right;
+       position: relative;
+   }
+
+   .left-allign {
+    left: 0;
+    position: absolute;
+   }
+
+   .card-body {
+       padding: 5px;
+       font-family: 'Gugi', cursive;
+   }
+
+   .summary-format {
+       margin-top: 20px;
+   }
+
+   .bottom-text {
+    bottom: 0;
+    margin: 10px;
+   }
+
+   .card-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 0;
+   }
+
+   .box {
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto; /* one column if on mobile */
+  }
+  
+  @media all and (min-width: 699px) {
+   .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto; /* three columns on desktop */
+    }
+  }
+
+  .txt-white { 
+      color: white;
+  }
